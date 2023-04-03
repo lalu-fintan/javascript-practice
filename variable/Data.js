@@ -69,10 +69,10 @@
 // object2.location = "banglore";
 // console.log(object2);
 
-const newValue = "laluprasath";
+// const newValue = "laluprasath";
 
-if (true) {
-  //   const newValue = "someOne";
-  console.log(newValue);
-}
-console.log(newValue);
+// if (true) {
+//   const newValue = "someOne";
+//   console.log(newValue);
+// }
+// console.log(newValue);
