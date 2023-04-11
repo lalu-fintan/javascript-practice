@@ -76,3 +76,11 @@
 //   console.log(newValue);
 // }
 // console.log(newValue);
+
+//deep copy - which means copy the value in one variable to another variable.this deep copy only for primitive data type
+
+// let a = 20;
+// let b = a;
+// a = 10;
+// console.log(b);
+// console.log(a);
