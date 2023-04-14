@@ -1,6 +1,6 @@
 // string to integer
 
-let x = "a10";
+let x = "10a";
 // let y = parseInt(x);
 let y = +x;
 console.log(typeof x, x);
