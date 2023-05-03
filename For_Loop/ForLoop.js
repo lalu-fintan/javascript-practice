@@ -33,15 +33,15 @@ if the condition is true updatexpression increase the initial expression
 //   console.log((sum += i));
 // }
 
-for (let a = 0; a <= 10; a++) {
-  if (a == 5) {
-    continue;
-  }
-  if (a === 8) {
-    break;
-  }
-  console.log(a);
-}
+// for (let a = 0; a <= 10; a++) {
+//   if (a == 5) {
+//     continue;
+//   }
+//   if (a === 8) {
+//     break;
+//   }
+//   console.log(a);
+// }
 
 // How to Loop Through an Array to Check for Odd and Even Numbers
 
@@ -49,16 +49,17 @@ let numbers = [1, 4, 44, 64, 55, 24, 32, 55, 19, 17, 74, 22, 23];
 let oddNumber = [];
 let evenNumber = [];
 
-for (let i = 0; i <= numbers.length; i++) {
-  if (numbers[i] % 2 == 1) {
-    oddNumber.push(numbers[i]);
-  } else {
-    evenNumber.push(numbers[i]);
-  }
-}
+// for (let i = 0; i <= numbers.length; i++) {
+//   if (numbers[i] % 2 == 1) {
+//     oddNumber.push(numbers[i]);
+//   } else {
+//     evenNumber.push(numbers[i]);
+//   }
+// }
+// const sortOut = oddNumber.sort();
 
-console.log("odd number", oddNumber);
-console.log("even numbers", evenNumber);
+// console.log("odd number", oddNumber);
+// console.log("even numbers", evenNumber);
 
 // get the maximum value
 // let max = 0;
@@ -71,16 +72,16 @@ console.log("even numbers", evenNumber);
 
 //get the mimum value
 
-let min = numbers[0];
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] < min) {
-    min = numbers[i];
-  }
-}
-console.log("minimum value", min);
+// let min = numbers[0];
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] < min) {
+//     min = numbers[i];
+//   }
+// }
+// console.log("minimum value", min);
 
 const compareNumber = (a, b) => {
-  return a - b;
+  return b - a;
 };
 let max = 0;
 let filterArr = [];
@@ -92,32 +93,32 @@ for (let i = 0; i <= numbers.length; i++) {
 filterArr.sort(compareNumber);
 console.log("sort", filterArr);
 
-//for in object
-function GFG() {
-  let Platform = { fname: "geeks", Mname: "for", lname: "geeks" };
+// //for in object
+// function GFG() {
+//   let Platform = { fname: "geeks", Mname: "for", lname: "geeks" };
 
-  let text = "";
-  let x;
-  for (x in Platform) {
-    text += Platform[x] + " ";
-  }
-  console.log(text);
-}
+//   let text = "";
+//   let x;
+//   for (x in Platform) {
+//     text += Platform[x] + " ";
+//   }
+//   console.log(text);
+// }
 
-console.log(GFG());
+// console.log(GFG());
 
-// for in arr
-const arr = [23, 54, 46, 3];
+// // for in arr
+// const arr = [23, 54, 46, 3];
 
-let gfg = "";
-for (let i in arr) {
-  gfg += arr[i] + "\n";
-}
-console.log(gfg);
+// let gfg = "";
+// for (let i in arr) {
+//   gfg += arr[i] + "\n";
+// }
+// console.log(gfg);
 
-let obj = { name1: "vijay", name2: "velu", name3: "lalu" };
+// let obj = { name1: "vijay", name2: "velu", name3: "lalu" };
 
-for (const name in obj) {
-  //   console.log(name);
-  console.log(obj[name]);
-}
+// for (const name in obj) {
+//   //   console.log(name);
+//   console.log(obj[name]);
+// }

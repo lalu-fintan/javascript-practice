@@ -54,3 +54,21 @@ let team = [
 
 let filterFunc = team.filter((item) => item.position == "developer");
 console.log(filterFunc);
+
+const arr = [
+  { name: 2, age: 8 },
+  { name: 4, age: 16 },
+  { name: 3, age: 12 },
+  { name: 1, age: 4 },
+  { name: 6, age: 24 },
+  { name: 3, age: 12 },
+  { name: 2, age: 8 },
+  { name: 4, age: 16 },
+  { name: 3, age: 12 },
+  { name: 1, age: 4 },
+  { name: 6, age: 24 },
+  { name: 3, age: 12 },
+];
+
+let x = arr.filter((a) => a.age < 10);
+console.log(x);
