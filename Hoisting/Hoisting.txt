@@ -1,0 +1,20 @@
+hositing -allows  to use functions and variables before they're declared.
+
+but if we make the function after the console.log it show the output ,
+but ifwe do the same thing in arrow or anonymous function ,throw the error
+
+
+variable hoisting 
+
+if you declare the variable with var key word after the console.log(),it show the result undiffied
+
+ex:
+
+console.log(a)
+var a=1
+
+js cosider:
+
+var a;
+console.log(a)
+a=1

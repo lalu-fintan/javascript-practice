@@ -22,9 +22,9 @@
 // console.log(a);
 // var a;
 
-var a;
-console.log(a);
-a = 10;
+// var a;
+// console.log(a);
+// a = 10;
 //-------------------------------
 // let x;
 // x = 10;
@@ -45,3 +45,13 @@ a = 10;
 
 // console.log(a); // 10
 // console.log(b);
+
+console.log(myfunc(2, 4));
+function myfunc(a, b) {
+  return a * b;
+} // show the output
+
+console.log(constFunc(2, 4));
+const constFunc = (a, b) => {
+  return a * b;
+}; // throw the error
